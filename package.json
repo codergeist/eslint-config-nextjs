@@ -1,0 +1,36 @@
+{
+  "name": "@codergeist/eslint-config-nextjs",
+  "version": "1.0.0",
+  "description": "Codergeist ESLint configuration package for Next.js projects.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codergeist/eslint-config-nextjs.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codergeist/eslint-config-nextjs/issues"
+  },
+  "homepage": "https://github.com/codergeist/eslint-config-nextjs#readme",
+  "peerDependencies": {
+    "@next/eslint-plugin-next": "^14.2.2",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-next": "^14.2.2",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.2.5"
+  },
+  "engines": {
+    "node": "^20",
+    "npm": "^10"
+  }
+}
