@@ -1,6 +1,6 @@
 {
   "name": "@codergeist/eslint-config-nextjs",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Codergeist ESLint configuration package for Next.js projects.",
   "main": "index.js",
   "repository": {
