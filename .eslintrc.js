@@ -1,8 +1,4 @@
 module.exports = {
-  env: {
-    browser: true,
-    es2021: true,
-  },
   extends: [
     'plugin:@next/next/recommended',
     'plugin:react/recommended',
@@ -10,17 +6,11 @@ module.exports = {
     'airbnb/hooks',
     'plugin:prettier/recommended',
   ],
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-  },
   settings: {
     'import/resolver': {
-      node: {
-        moduleDirectory: ['./node_modules', './src'],
+      alias: {
+        extensions: ['.js', '.jsx'],
+        map: [['@', './src']],
       },
     },
   },
